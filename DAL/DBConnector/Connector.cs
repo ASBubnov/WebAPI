@@ -14,12 +14,5 @@ namespace DAL.DBConnector
         {
             Database.EnsureCreated();            
         }
-
-       /* protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
-        {
-            optionsBuilder.LogTo(Console.WriteLine, LogLevel.Information);
-            
-            optionsBuilder.UseNpgsql("Host = 127.0.0.1; Port = 5432; Database = WebApiExample; User Id = postgres; Password = 0000;");
-        }*/
     }
 }
